@@ -14,11 +14,7 @@ export const items = [
         description: "La Brasserie Belbeke est une brasserie artisanale située à Lorgies. Elle propose plusieurs bières : blonde, brune, ambrée, blanche, IPA, etc.",
         lieu: "Lorgies",
         img: img1,
-        // otherImgs: [
-        //     af1_1,
-        //     af1_2,
-        // ],
-        videos: "https://www.youtube.com/embed/5qap5aO4i9A",
+        videos: "https://www.youtube.com/embed/koEDcDQnXag",
     },
     {
         id: 2,
@@ -32,7 +28,7 @@ export const items = [
         //     af1_1,
         //     af1_2,
         // ],
-        videos: "https://www.youtube.com/embed/5qap5aO4i9A",
+        // videos: "https://www.youtube.com/embed/koEDcDQnXag",
     },
     {
         id: 3,
@@ -46,6 +42,6 @@ export const items = [
         //     af1_1,
         //     af1_2,
         // ],
-        videos: "https://www.youtube.com/embed/5qap5aO4i9A",
+        videos: "https://www.youtube.com/embed/koEDcDQnXag",
     },
 ]

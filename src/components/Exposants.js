@@ -84,20 +84,20 @@ export default function Exposants() {
                     getItems().map((item, index) => (
                         <div
                         key={index}
-                        className="flex items-center flex-col md:flex-row gap-4 max-w-4xl border relative overflow-hidden border-noir rounded-lg"
+                        className="flex items-center flex-col md:flex-row gap-4 max-w-xs m-auto md:max-w-4xl border relative overflow-hidden border-noir rounded-lg"
                       >
-                        <div className="w-1/2">
+                        <div className="md:w-1/2">
                         <NavLink to={`/exposants/${item.name}`} className="">
                           <img src={item.img} alt={item.name} />
                         </NavLink>
                         </div>
-                        <div className="w-1/2 gap-2 flex flex-col">
+                        <div className="w-5/6 md:w-1/2 gap-2 flex flex-col">
                           <h2>{item.name}</h2>
                           <h3 className="text-zinc-400">{item.category}</h3>
                           <p className="max-w-sm">
                             {cutOffDescription(item.description)}
                           </p>
-                          <NavLink to={`/exposants/${item.name}`} className="w-20">
+                          <NavLink to={`/exposants/${item.name}`} className="w-20 mb-6 sm:mb-0">
                             <button className="bg-noir text-blanc p-2 rounded-lg hover:bg-zinc-700">
                               Voir plus
                             </button>
