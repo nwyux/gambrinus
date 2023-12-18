@@ -55,10 +55,18 @@ export default function Navbar() {
             </li>
             <li className="mr-6">
               <NavLink
+                to="/pricing"
+                className="text-noir hover:underline"
+              >
+                Billeterie
+              </NavLink>
+            </li>
+            <li className="mr-6">
+              <NavLink
                 to="/about"
                 className="text-noir hover:underline"
               >
-                A propos
+                À propos
               </NavLink>
             </li>
             <li className="mr-6">
@@ -104,11 +112,19 @@ export default function Navbar() {
             </NavLink>
             <hr className="w-3/5 bg-noir block h-0.5" />
             <NavLink
+              to="/pricing"
+              className="text-noir hover:underline"
+              onClick={closeMenuOnClick}
+            >
+              Billeterie
+            </NavLink>
+            <hr className="w-3/5 bg-noir block h-0.5" />
+            <NavLink
               to="/about"
               className="text-noir hover:underline"
               onClick={closeMenuOnClick}
             >
-              A propos
+              À propos
             </NavLink>
             <hr className="w-3/5 bg-noir block h-0.5" />
             <NavLink

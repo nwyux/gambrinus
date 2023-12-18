@@ -1,7 +1,9 @@
-import React from 'react'
+import Apropos from "../components/Apropos"
 
 export default function About() {
   return (
-    <div>A propos</div>
+    <div>
+      <Apropos />
+    </div>
   )
 }

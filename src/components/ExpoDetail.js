@@ -56,7 +56,7 @@ export default function ExpoDetail() {
                 <div className="flex flex-col gap-4 max-w-4xl items-center sm:mt-1">
                     <div className="sm:w-4/6">
                         <button onClick={modal}>
-                        <img className="border border-noir rounded" src={item.img} alt={item.name} />
+                        <img className="sm:border sm:border-noir sm:rounded" src={item.img} alt={item.name} />
                         </button>
                     </div>
                     <div className="sm:w-4/6 gap-2 flex flex-col">

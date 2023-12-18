@@ -1,7 +1,9 @@
-import React from 'react'
+import Accueil from "../components/Accueil"
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Accueil />
+    </div>
   )
 }
