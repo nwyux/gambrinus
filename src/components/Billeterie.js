@@ -23,7 +23,7 @@ export default function Billeterie() {
   return (
     <div className="h-full flex sidebar-transition transition duration-400 ease-in-out mt-5">
 
-            <div className="modal fixed w-full h-full top-0 left-0 flex items-center justify-center hidden bg-noir bg-opacity-50">
+            <div className="modal absolute w-full h-full top-0 left-0 flex items-center justify-center hidden bg-noir bg-opacity-50">
                 <div className="modal-container bg-blanc w-11/12 sm:max-w-2xl mx-auto rounded shadow-lg z-50 overflow-y-auto">
                     <div className="modal-content py-4 text-left px-6">
                         <div className="flex justify-between items-center pb-3">
