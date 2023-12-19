@@ -5,7 +5,7 @@ import hdf from "../assets/img/hdf.png";
 
 export default function Footer() {
   return (
-    <div className="App static left-0 w-full bottom-0 mt-4">
+    <div className="App static left-0 w-full bottom-0 mt-24">
       <footer className="bg-blanc border-t-2 border-noir text-noir p-4">
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
@@ -16,22 +16,22 @@ export default function Footer() {
             <div>
               <ul className="flex space-x-4 mb-4 sm:mb-0">
                 <li>
-                  <NavLink to="/" className="hover:text-gray-400">
+                  <NavLink to="/" className="text-noir hover:underline">
                     Accueil
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/pricing" className="hover:text-gray-400">
+                  <NavLink to="/pricing" className="text-noir hover:underline">
                     Billeterie
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about" className="hover:text-gray-400">
+                  <NavLink to="/about" className="text-noir hover:underline">
                     À propos
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/exposants" className="hover:text-gray-400">
+                  <NavLink to="/exposants" className="text-noir hover:underline">
                     Exposants
                   </NavLink>
                 </li>
