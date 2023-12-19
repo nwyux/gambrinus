@@ -24,7 +24,7 @@ export default function Billeterie() {
     <div className="h-full flex sidebar-transition transition duration-400 ease-in-out mt-5">
 
             <div className="modal absolute w-full h-full top-0 left-0 flex items-center justify-center hidden bg-noir bg-opacity-50">
-                <div className="modal-container bg-blanc w-11/12 sm:max-w-2xl mx-auto rounded shadow-lg z-50 overflow-y-auto">
+                <div className="modal-container bg-blanc w-11/12 sm:max-w-2xl rounded mx-auto shadow-lg z-50 overflow-y-auto">
                     <div className="modal-content py-4 text-left px-6">
                         <div className="flex justify-between items-center pb-3">
                             <p className="text-2xl font-bold">QR Code d'entrée</p>
@@ -67,7 +67,7 @@ export default function Billeterie() {
                     </div>
 
                     <div className="text-center relative text-blanc border border-noir p-6 w-8/12 md:w-5/12 rounded-lg gap-2">
-                        <h2 className="bg-noir absolute top-0 left-0 py-1 w-full">OFFRE EXCLUSIVE INTERNET</h2>
+                        <h2 className="bg-noir rounded absolute top-0 left-0 py-1 w-full">OFFRE EXCLUSIVE INTERNET</h2>
                         <h3 className="billet text-xl sm:text-2xl font-bold text-noir mt-4">Pass Dégustation</h3>
                         <ul className="text-md sm:text-lg text-gray-600 text-left mt-4 list-disc">
                             <li>Les avantages de l'entrée gratuite</li>
