@@ -2,6 +2,7 @@ import './App.css';
 import "./scss/style.scss";
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Pricing from './pages/Pricing';
 import About from './pages/About';
@@ -25,6 +26,8 @@ function App() {
       <Route path="/exposants/:id" element={<ExpoDetail />} />
       <Route path="/*" element={<Home />} />
     </Routes>
+
+    <Footer />
     </>
   );
 }
