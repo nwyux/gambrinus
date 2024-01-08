@@ -52,30 +52,30 @@ export default function Footer() {
             </div>
             <div className="flex space-x-4 items-center">
               <a
-                href="mailto:gambrinus@gmail.com"
+                href="mailto:digitalpulseagence@gmail.com"
                 className="text-gray-400 hover:text-red-500"
                 rel="noopener noreferrer"
               >
                 <Mail />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61554386141401"
                 className="text-gray-400 hover:text-blue-500"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Facebook />
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="text-gray-400 hover:text-blue-400"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Twitter />
-              </a>
+              </a> */}
               <a
-                href="#"
+                href="https://www.instagram.com/gambrinus_fest/"
                 className="text-gray-400 hover:text-pink-400"
                 target="_blank"
                 rel="noopener noreferrer"
