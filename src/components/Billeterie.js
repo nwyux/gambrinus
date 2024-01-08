@@ -3,7 +3,16 @@ import { X } from "lucide-react";
 import QR from "../assets/img/frame.png";
 
 export default function Billeterie() {
+  let count = 473;
+
+  function countDown() {
+    count--;
+    document.querySelector(".count").innerHTML = count;
+  }
+
   useEffect(() => {
+    
+
     const modal = document.querySelector(".modal");
     const modalContainer = document.querySelector(".modal-container");
     modal.addEventListener("click", (e) => {
@@ -16,6 +25,8 @@ export default function Billeterie() {
   function modal() {
     document.querySelector(".modal").classList.remove("hidden");
     document.querySelector(".modal").classList.add("flex");
+
+    countDown();
   }
 
   return (
@@ -57,6 +68,10 @@ export default function Billeterie() {
       <div className="flex flex-col w-full">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-noir">Billeterie</h1>
+
+          <p className="text-xl text-gray-600 dark:text-gray-400 mt-4 underline underline-offset-4">
+            Nombres de billets disponibles : <span className="count">{count}</span>/500.
+          </p>
         </div>
 
         <div className="h-full flex flex-col sm:flex-row justify-center gap-4 mt-16">
@@ -71,10 +86,10 @@ export default function Billeterie() {
                 <li>Dégustations diverses et variées</li>
               </ul>
               <div className="flex items-center justify-center mt-4 gap-4">
-                <p className="text-2xl text-right text-gray-600">0€</p>
+                <p className="text-2xl text-right text-gray-600">Gratuit</p>
                 <button
-                  onClick={modal}
-                  className="bg-noir text-blanc px-2 py-2 rounded-lg hover:bg-zinc-700"
+                  // onClick={modal}
+                  className="btn bg-gray-600 cursor-not-allowed line-through	 text-blanc px-2 py-2 rounded-lg hover:bg-zinc-700"
                 >
                   Acheter
                 </button>
@@ -97,7 +112,7 @@ export default function Billeterie() {
                 <p className="text-2xl text-right text-gray-600">6€</p>
                 <button
                   onClick={modal}
-                  className="bg-noir text-blanc px-2 py-2 rounded-lg hover:bg-zinc-700"
+                  className="btn bg-noir text-blanc px-2 py-2 rounded-lg hover:bg-zinc-700"
                 >
                   Acheter
                 </button>
@@ -120,7 +135,7 @@ export default function Billeterie() {
                 <p className="text-2xl text-right text-gray-600">7€</p>
                 <button
                   onClick={modal}
-                  className="bg-gray-600 text-blanc px-2 py-2 rounded-lg cursor-not-allowed"
+                  className="btn bg-gray-600 text-blanc px-2 py-2 rounded-lg cursor-not-allowed"
                   disabled
                 >
                   Acheter

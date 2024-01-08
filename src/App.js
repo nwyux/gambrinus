@@ -8,6 +8,7 @@ import Pricing from './pages/Pricing';
 import About from './pages/About';
 import Expo from './pages/Expo';
 import ExpoDetail from './components/ExpoDetail';
+import Notfound from './pages/404';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       <Route path="/exposants" element={<Expo />} />
       <Route path="/exposants/*" element={<Expo />} />
       <Route path="/exposants/:id" element={<ExpoDetail />} />
-      <Route path="/*" element={<Home />} />
+      <Route path="/*" element={<Notfound />} />
     </Routes>
 
     <Footer />
