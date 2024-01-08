@@ -65,7 +65,7 @@ export default function Accueil() {
           </p>
         </div>
 
-        <div className="text-center flex justify-center gap-4 mt-2">
+        <div className="text-center flex justify-center gap-4 mt-4 mb-8">
           <NavLink to="/pricing">
             <button className="bg-noir text-blanc p-2 rounded-lg hover:bg-zinc-700">
               Acheter mes billets

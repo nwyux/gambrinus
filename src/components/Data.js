@@ -6,16 +6,22 @@ import img3 from '../assets/img/mr_biltong.jpg';
 
 import img4 from '../assets/img/brasserie_lawe.jpeg';
 
+import img5 from '../assets/img/dekatsbier.jpg';
+
 export const items = [
 
     {
         id: 1,
         category: "Brasserie",
-        brand : "Belbeke",
-        name: "La Brasserie Belbeke",
-        description: "La Brasserie Belbeke est une brasserie artisanale située à Lorgies. Elle propose plusieurs bières : blonde, brune, ambrée, blanche, IPA, etc.",
-        lieu: "Lorgies",
-        img: img1,
+        brand : "Dekatsbier",
+        name: "Dekatsbier",
+        description: "Dekatsbier est une brasserie artisanale située à Méteren. Elle propose plusieurs bières : blonde, brune, ambrée, blanche, IPA, etc.",
+        lieu: "59270 Méteren",
+        img: img5,
+        // otherImgs: [
+        //     af1_1,
+        //     af1_2,
+        // ],
         videos: "https://www.youtube.com/embed/koEDcDQnXag",
     },
     {
@@ -23,7 +29,7 @@ export const items = [
         category: "Producteurs Locaux",
         brand : "Domaine Hélant",
         name: "Le Domaine D'Hélant",
-        description: "Le Domaine D'Helant est un domaine viticole situé à Oignies. Il propose plusieurs vins : blanc, rouge, rosé, pétillant, etc.",
+        description: "Le Domaine D'Helant est un domaine viticole situé à Oignies. Il propose plusieurs bières : blonde, brune, ambrée, blanche, IPA, etc.",
         lieu: "Oignies",
         img: img2,
         // otherImgs: [
@@ -58,6 +64,16 @@ export const items = [
         //     af1_1,
         //     af1_2,
         // ],
+        videos: "https://www.youtube.com/embed/koEDcDQnXag",
+    },
+    {
+        id: 5,
+        category: "Producteurs Locaux",
+        brand : "Gueules Noires",
+        name: "Les Gueules Noires",
+        description: "Les Gueules Noires est une distillerie artisanale située à Auchy-les-Mines. Elle propose plusieurs bières : blonde, brune, ambrée, blanche, IPA, etc.",
+        lieu: "Auchy-les-Mines",
+        img: img1,
         videos: "https://www.youtube.com/embed/koEDcDQnXag",
     },
 ]
