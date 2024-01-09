@@ -69,7 +69,7 @@ export default function Billeterie() {
         <div className="text-center">
           <h1 className="text-2xl font-bold text-noir">Billeterie</h1>
 
-          <p className="text-xl text-gray-600 dark:text-gray-400 mt-4 underline underline-offset-4">
+          <p className="text-xl text-brown mt-4 underline underline-offset-4">
             Nombres de billets disponibles : <span className="count">{count}</span>/500.
           </p>
         </div>

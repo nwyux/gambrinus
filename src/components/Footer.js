@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div>
               <p className="text-lg font-bold">Gambrinus'Fest</p>
-              <p className="text-sm">Copyright © 2023. Tous droits réservés.</p>
+              <p className="text-sm">Digital Pulse © 2023. Tous droits réservés.</p>
             </div>
             <div>
               <ul className="flex space-x-4 mb-4 sm:mb-0">

@@ -62,7 +62,7 @@ export default function Apropos() {
             vente leurs créations, le tout dans une ambiance familiale et
             conviviale.
             <br />
-            <strong>Salle Olof Palme à Béthune.</strong>
+            <strong className="text-brown">Salle Olof Palme à Béthune.</strong>
           </p>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.6528646467673!2d2.624613351743304!3d50.522025509230374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd234541fc4279%3A0xd9695a68d1083ae6!2sSalle%20Olof%20Palme!5e0!3m2!1sen!2sfr!4v1702892171912!5m2!1sen!2sfr"
@@ -83,7 +83,7 @@ export default function Apropos() {
             </button>
           </div>
           <div className="text-center">
-          <h3 className="text-xl font-bold text-gray-600 mt-4 text-justify">
+          <h3 className="text-xl font-bold text-brown mt-4 text-justify">
             La programmation du festival.
           </h3>
           <p className="text-xl sm:w-10/12 text-gray-600 mt-4 text-justify">

@@ -41,7 +41,7 @@ export default function Exposants() {
   return (
     <>
       <div className="h-full flex flex-col gap-4 justify-center m-auto sidebar-transition transition duration-400 ease-in-out">
-        <h1 className="text-4xl font-archivo text-center">Les Exposants</h1>
+        <h1 className="text-2xl font-bold text-center">Les Exposants</h1>
 
         <div className="flex flex-col gap-4 m-auto">
           <div className="flex absolute mt-2 items-center mb-3 ml-3 pointer-events-none">
@@ -102,7 +102,7 @@ export default function Exposants() {
                     to={`/exposants/${item.name}`}
                     className="w-20 mb-6 sm:mb-0"
                   >
-                    <button className="bg-noir text-blanc p-2 rounded-lg hover:bg-zinc-700">
+                    <button className="bg-brown text-blanc p-2 rounded-lg hover:bg-amber-900">
                       Voir plus
                     </button>
                   </NavLink>
@@ -110,7 +110,7 @@ export default function Exposants() {
               </div>
             ))
           ) : (
-            <p className="text-2xl">
+            <p className="sm:text-2xl text-center">
               Aucun exposant ne correspond à votre recherche.
             </p>
           )}

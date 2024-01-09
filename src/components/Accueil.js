@@ -1,7 +1,7 @@
 import InfoAccordeon from "./Accordeon";
 import { NavLink } from "react-router-dom";
 import gambrinus from "../assets/img/gambrinus.png";
-import gambritext from "../assets/img/gambritext.png";
+import gambritext from "../assets/img/Gambrinus2.png";
 import { items } from "./Data";
 
 export default function Accueil() {
@@ -27,7 +27,7 @@ export default function Accueil() {
             to={`/exposants/${item.name}`}
             className="w-20 mb-6 sm:mb-0"
           >
-            <button className="bg-noir text-blanc p-2 rounded-lg hover:bg-zinc-700">
+            <button className="bg-brown text-blanc p-2 rounded-lg hover:bg-amber-900">
               Voir plus
             </button>
           </NavLink>
@@ -72,8 +72,8 @@ export default function Accueil() {
             </button>
           </NavLink>
           <NavLink to="/about">
-            <button className="bg-noir text-blanc p-2 rounded-lg hover:bg-zinc-700">
-              A propos de nous
+            <button className="bg-lime-800 text-blanc p-2 rounded-lg hover:bg-vert">
+              À propos de nous
             </button>
           </NavLink>
         </div>

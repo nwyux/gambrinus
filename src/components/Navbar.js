@@ -50,7 +50,7 @@ export default function Navbar() {
               alt="Gambrinus"
             />
           </Link>
-          <ul className="flex text-noir lg:gap-12 font-alata items-center">
+          <ul className="flex text-noir lg:gap-12 items-center">
             <li className="mr-6">
               <NavLink
                 to="/"
@@ -64,7 +64,7 @@ export default function Navbar() {
                 to="/pricing"
                 className="text-noir hover:underline"
               >
-                Billeterie
+                Billetterie
               </NavLink>
             </li>
             <li className="mr-6">
@@ -104,7 +104,7 @@ export default function Navbar() {
             ref={menuRef}
             className={`${
               showMenu ? "translate-x-0" : "translate-x-full"
-            } fixed top-0 right-0 h-full font-alata bg-blanc text-noir w-3/5 max-w-xs flex flex-col justify-center items-center p-6 gap-4 transition-transform duration-200`}
+            } fixed top-0 right-0 h-full bg-blanc text-noir w-3/5 max-w-xs flex flex-col justify-center items-center p-6 gap-4 transition-transform duration-200`}
           >
             <button
               className="absolute top-5 right-5 text-3xl font-bold"
@@ -126,7 +126,7 @@ export default function Navbar() {
               className="text-noir hover:underline"
               onClick={closeMenuOnClick}
             >
-              Billeterie
+              Billetterie
             </NavLink>
             <hr className="w-3/5 bg-noir block h-0.5" />
             <NavLink
