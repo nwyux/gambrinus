@@ -8,22 +8,21 @@ import img4 from '../assets/img/brasserie_lawe.jpeg';
 
 import img5 from '../assets/img/dekatsbier.jpg';
 
+import img6 from '../assets/img/belbeke.jpeg';
+
 export const items = [
 
     {
         id: 1,
         category: "Brasserie",
-        brand : "Dekatsbier",
-        name: "Dekatsbier",
-        description: "Dekatsbier est une brasserie artisanale située à Méteren. Elle propose plusieurs bières : blonde, brune, ambrée, blanche, IPA, etc.",
-        lieu: "59270 Méteren",
-        img: img5,
-        // otherImgs: [
-        //     af1_1,
-        //     af1_2,
-        // ],
-        videos: "https://www.youtube.com/embed/koEDcDQnXag",
+        brand : "Delbeke",
+        name: "Brasserie Delbeke",
+        description: "La Brasserie Delbeke est une brasserie artisanale située à Lorgies. Elle propose plusieurs bières : blonde, brune, ambrée, blanche, IPA, etc.",
+        lieu: "Lorgies",
+        img: img6,
+        videos: "https://www.youtube.com/embed/Qw_XSX9bIIo",
     },
+    
     {
         id: 2,
         category: "Producteurs Locaux",
@@ -36,7 +35,7 @@ export const items = [
         //     af1_1,
         //     af1_2,
         // ],
-        // videos: "https://www.youtube.com/embed/koEDcDQnXag",
+        videos: "https://www.youtube.com/embed/qt93MAWT8Xw",
     },
     {
         id: 3,
@@ -50,7 +49,7 @@ export const items = [
         //     af1_1,
         //     af1_2,
         // ],
-        videos: "https://www.youtube.com/embed/koEDcDQnXag",
+        // videos: "https://www.youtube.com/embed/koEDcDQnXag",
     },
     {
         id: 4,
@@ -64,7 +63,7 @@ export const items = [
         //     af1_1,
         //     af1_2,
         // ],
-        videos: "https://www.youtube.com/embed/koEDcDQnXag",
+        // videos: "https://www.youtube.com/embed/koEDcDQnXag",
     },
     {
         id: 5,
@@ -74,6 +73,20 @@ export const items = [
         description: "Les Gueules Noires est une distillerie artisanale située à Auchy-les-Mines. Elle propose plusieurs bières : blonde, brune, ambrée, blanche, IPA, etc.",
         lieu: "Auchy-les-Mines",
         img: img1,
-        videos: "https://www.youtube.com/embed/koEDcDQnXag",
+        videos: "https://www.youtube.com/embed/RQI-taUwcWc",
+    },
+    {
+        id: 6,
+        category: "Brasserie",
+        brand : "Dekatsbier",
+        name: "Dekatsbier",
+        description: "Dekatsbier est une brasserie artisanale située à Méteren. Elle propose plusieurs bières : blonde, brune, ambrée, blanche, IPA, etc.",
+        lieu: "59270 Méteren",
+        img: img5,
+        // otherImgs: [
+        //     af1_1,
+        //     af1_2,
+        // ],
+        // videos: "https://www.youtube.com/embed/koEDcDQnXag",
     },
 ]
