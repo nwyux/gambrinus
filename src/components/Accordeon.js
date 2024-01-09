@@ -56,6 +56,10 @@ const InfoAccordeon = () => {
         L'association Les Amis de la Bière est une association de passionnés de bières artisanales. Elle a pour but de promouvoir la bière authentique et de partager leur passion avec le plus grand nombre.
         "
       />
+      <AccordionItem
+        title="Les Amis de la Bière"
+        content="Les Amis de la bière, fondés en 1986 par des passionnés, regroupent plus de 500 membres principalement du Nord-Pas-de-Calais. Ils participent à des visites de musées et des conventions dédiées à la bière, tout en travaillant à la création d'un musée régional de la bière pour exposer des pièces de collection. Les membres, qu'ils soient anciens brasseurs, historiens de la bière ou brasseurs amateurs, partagent une passion commune pour cet univers. L'association soutient la Ghilde des Eswards Cervoisiers, une confrérie représentative du monde brassicole dans divers événements. L'adhésion à cette confrérie nécessite une contribution publique à la promotion de la bière, telle que l'organisation du Gambrinus Fest. Les Amis de la bière sont des partenaires essentiels de cet événement, mettant en avant la bière de Noël. Le président, M. Vincent Caruso, partage avec enthousiasme l'histoire de l'association et son engagement lors des manifestations, en particulier celles liées aux bières de Noël. L'avenir de l'association implique des apparitions publiques et une participation continue aux événements tels que le Gambrinus Fest pour élargir la communauté de la Ghilde des Eswards Cervoisiers."
+      />
     </div>
   );
 };
