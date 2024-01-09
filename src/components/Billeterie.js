@@ -86,7 +86,7 @@ export default function Billeterie() {
                 <li>Dégustations diverses et variées</li>
               </ul>
               <div className="flex items-center justify-center mt-4 gap-4">
-                <p className="text-2xl text-right text-gray-600">Gratuit</p>
+                <p className="text-2xl text-right text-brown underline">Gratuite</p>
                 <button
                   // onClick={modal}
                   className="btn bg-gray-600 cursor-not-allowed line-through	 text-blanc px-2 py-2 rounded-lg hover:bg-zinc-700"
@@ -97,7 +97,7 @@ export default function Billeterie() {
             </div>
 
             <div className="text-center relative text-blanc border border-noir p-6 w-8/12 md:w-5/12 rounded-lg gap-2">
-              <h2 className="bg-noir rounded-t absolute top-0 left-0 py-1 w-full">
+              <h2 className="bg-vert rounded-t absolute top-0 left-0 py-1 w-full">
                 OFFRE EXCLUSIVE INTERNET
               </h2>
               <h3 className="billet text-xl sm:text-2xl font-bold text-noir mt-4">
@@ -112,7 +112,7 @@ export default function Billeterie() {
                 <p className="text-2xl text-right text-gray-600">6€</p>
                 <button
                   onClick={modal}
-                  className="btn bg-noir text-blanc px-2 py-2 rounded-lg hover:bg-zinc-700"
+                  className="btn bg-vert text-blanc px-2 py-2 rounded-lg hover:bg-lime-700"
                 >
                   Acheter
                 </button>
@@ -135,7 +135,7 @@ export default function Billeterie() {
                 <p className="text-2xl text-right text-gray-600">7€</p>
                 <button
                   onClick={modal}
-                  className="btn bg-gray-600 text-blanc px-2 py-2 rounded-lg cursor-not-allowed"
+                  className="btn bg-gray-600 line-through text-blanc px-2 py-2 rounded-lg cursor-not-allowed"
                   disabled
                 >
                   Acheter
