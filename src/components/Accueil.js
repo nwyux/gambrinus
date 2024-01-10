@@ -1,8 +1,8 @@
 import InfoAccordeon from "./Accordeon";
 import { NavLink } from "react-router-dom";
+import { items } from "./Data";
 import gambrinus from "../assets/img/gambrinus.png";
 import gambritext from "../assets/img/Gambrinus2.png";
-import { items } from "./Data";
 
 export default function Accueil() {
 

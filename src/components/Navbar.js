@@ -2,7 +2,6 @@ import { NavLink, Link } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import { Menu, X } from "lucide-react";
 import gambri from "../assets/img/gambri.png";
-import gambritext from "../assets/img/gambritext.png";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);

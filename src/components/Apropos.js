@@ -34,7 +34,7 @@ export default function Apropos() {
             </div>
             <div className="flex justify-center">
               <img
-                className="border border-noir rounded"
+                className="border border-noir rounded w-6/12"
                 src={prog}
                 alt="Programme"
               />
